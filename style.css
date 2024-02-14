@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F26B87; /* Red background */
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: black; /* White text */
+}
+
+.answer-box {
+    margin-top: 50px;
+}
+
+.answer-box p {
+    margin-bottom: 10px;
+}
+
+.answer-box button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: white; /* White buttons */
+    border: none;
+    color: #ff4d4d; /* Red text */
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.answer-box button:hover {
+    background-color: #f0f0f0; /* Light gray on hover */
+}
